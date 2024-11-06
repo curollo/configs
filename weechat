@@ -1,0 +1,77 @@
+/set weechat.look.mouse off
+/set weechat.look.bare_display_time_format "%H:%M:%S"
+/set weechat.look.color_inactive_time off
+/set weechat.look.day_change_message_1date "-- Day changed to %a, %d %b %Y --"
+/set weechat.look.hotlist_add_conditions "${away} || ${buffer.num_displayed} == 0"
+/set weechat.look.hotlist_buffer_separator ","
+/set weechat.look.hotlist_count_max 0
+/set weechat.look.hotlist_names_count 0
+/set weechat.look.hotlist_prefix "Act: "
+/set weechat.look.hotlist_sort "buffer.number"
+/set weechat.look.item_time_format "%H:%M:%S"
+/set weechat.look.nick_prefix "<"
+/set weechat.look.nick_suffix ">"
+/set weechat.look.paste_max_lines 1
+/set weechat.look.prefix_align none
+/set weechat.look.prefix_join "<--"
+/set weechat.look.prefix_network "${color:012}-${color:250}!${color:012}-"
+/set weechat.look.prefix_quit "-->"
+/set weechat.look.read_marker none
+/set weechat.look.read_marker_string "—"
+/set weechat.look.scroll_page_percent 50
+/set weechat.look.window_title "WeeChat ${info:version}"
+
+/set weechat.color.chat_day_change default
+/set weechat.color.chat_highlight_bg default
+/set weechat.color.chat_inactive_window default
+/set weechat.color.chat_nick default
+/set weechat.color.chat_nick_offline default
+/set weechat.color.chat_nick_other default
+/set weechat.color.chat_time_delimiters default
+/set weechat.color.chat_highlight *_yellow
+/set weechat.color.chat_nick_prefix darkgray
+/set weechat.color.chat_nick_suffix darkgray
+/set weechat.color.chat_delimiters darkgray
+/set weechat.color.chat_prefix_buffer brown
+/set weechat.color.chat_prefix_join lightcyan
+/set weechat.color.chat_prefix_network lightblue
+/set weechat.color.emphasized_bg magenta
+/set weechat.color.chat_nick_offline_highlight_bg blue
+/set weechat.color.status_mouse green
+/set weechat.color.chat_prefix_suffix green
+/set weechat.color.status_data_msg white
+/set weechat.color.status_more white
+/set weechat.color.status_number white
+/set weechat.color.chat_nick_colors "021,023,025,027,029,031,033,035,037,039,041,043,045,047,049,051,056,058,061,063,065,067,069,071,073,075,077,079,081,083,085,087,089,091,093,095,097,099,101,104,106,108,110,112,114,116,118,120,122,124,126,128,130,132,134,136,138,140,142,144,147,149,151,153,155,157,159,161,163,165,167,169,171,173,175,177,179,181,183,185,187,189,191,193,195,197,199,201,203,205,207,209,211,213,215,217,219,221,223,225"
+/set weechat.color.chat_host 29
+/set weechat.color.chat_nick_self 29
+/set weechat.color.chat_prefix_quit cyan
+/set weechat.color.chat_value 29
+/set weechat.color.nicklist_away cyan
+/set weechat.color.status_data_other cyan
+/set weechat.color.separator 233
+/set weechat.color.chat_prefix_join 31
+
+/set weechat.bar.input.size 1
+/set weechat.bar.status.color_bg_inactive default
+/set weechat.bar.status.items "[time],[buffer_plugin],buffer_number+:+buffer_name+(buffer_modes)+{buffer_nicklist_count}+buffer_zoom+buffer_filter,scroll,[lag],[hotlist],completion"
+/set weechat.bar.fset.color_delim 29
+/set weechat.bar.nicklist.color_delim 29
+/set weechat.bar.status.color_delim 29
+/set weechat.bar.title.color_bg 233
+#/set weechat.bar.title.color_bg blue
+/set weechat.bar.title.color_bg_inactive default
+/set weechat.bar.status.color_bg 233
+#/set weechat.bar.status.color_bg blue
+/set weechat.bar.title.color_delim white
+/set weechat.bar.input.items "input_prompt+(away),[input_search],[input_paste],input_text"
+/set irc.color.input_nick 1
+
+/set weechat.bar.nicklist.hidden off
+/set weechat.bar.nicklist.size_max 20
+/set weechat.bar.buflist.position bottom
+
+/set irc.server_default.capabilities account-notify,away-notify,cap-notify,chghost,extended-join,invite-notify,multi-prefix,server-time,userhost-in-names
+/set script.scripts.download_enabled on
+/set weechat.completion.nick_completer ":"
+/set weechat.plugin.path "%h/plugins"

@@ -1,0 +1,121 @@
+# Background definitions
+# ID 1
+rounded = 0
+border_width = 0
+background_color = #000000 40
+border_color = #828282 0
+
+# ID 2 - task active
+rounded = 1
+border_width = 0
+background_color = #7f1e31 100
+border_color = #c3314f 30
+
+# ID 3 - task
+rounded = 1
+border_width = 0
+background_color = #000000 0
+border_color = #000000 0
+
+# ID 4
+rounded = 1
+border_width = 0
+background_color = #888888 20
+border_color = #ED2323 60
+
+# ID 5 - taskbar
+rounded = 0
+border_width = 0
+background_color = #000000 0
+border_color = #000000 0
+
+# ID 6 - active taskbar
+rounded = 0
+border_width = 0
+background_color = #000000 40
+border_color = #000000 40
+
+# ID 7 - tooltip
+rounded = 1
+border_width = 0
+background_color = #222222 90
+border_color = #222222 90
+
+# ID 8
+rounded = 1
+border_width = 0
+background_color = #000000 40
+border_color = #000000 40
+
+panel_monitor = all
+panel_position = bottom center horizontal
+panel_items = PTSC
+panel_size = 100% 20
+panel_margin = 0 -1
+panel_padding = 0 0
+panel_dock = 0
+wm_menu = 1
+panel_layer = bottom
+panel_background_id = 1
+autohide = 0
+autohide_show_timeout = 0.3
+autohide_hide_timeout = 1.5
+autohide_height = 6
+strut_policy = follow_size
+taskbar_padding = 6 0 6
+taskbar_background_id = 5
+taskbar_active_background_id = 6
+urgent_nb_of_blink = 20
+task_icon = 0
+task_text = 1
+task_centered = 1
+task_maximum_size = 0 40
+task_padding = 2 2
+task_background_id = 3
+task_active_background_id = 2
+task_urgent_background_id = 4
+task_iconified_background_id = 3
+task_icon_asb = 80 0 0
+task_active_icon_asb = 100 0 0
+task_urgent_icon_asb = 100 0 0
+task_iconified_icon_asb = 80 0 0
+task_font = artwiz lemon 8
+task_font_color = #ffffff 60
+task_active_font_color = #ffffff 100
+task_urgent_font_color = #FFFFFF 100
+task_iconified_font_color = #d8d8d8 60
+font_shadow = 0
+systray = 1
+systray_padding = 2 2 2
+systray_sort = left2right
+systray_background_id = 8
+systray_icon_size = 15
+systray_icon_asb = 100 0 0
+time1_format = %H:%M
+time1_font = artwiz lemon 8
+clock_font_color = #ffffff 100
+clock_padding = 5 5
+clock_background_id = 8
+clock_rclick_command = skippy-xd
+clock_lclick_command = gsimplecal
+tooltip = 1
+tooltip_padding = 2 2
+tooltip_show_timeout = 0.0
+tooltip_hide_timeout = 0.0
+tooltip_background_id = 7
+tooltip_font_color = #d8d8d8 100
+tooltip_font = artwiz lemon 8
+button = new
+button_icon = ~/.config/tint2/labs.svg
+button_text =
+button_tooltip = Main Menu
+button_lclick_command = dmenu_run -b -nb "#101010" -sb "#7f1e31" -sf "#ffffff"
+button_font_color = #ffffff 100
+button_padding = 2 2
+button_background_id = 5
+button_centered = 1
+button_max_icon_size = 28
+mouse_middle = none
+mouse_right = close
+mouse_scroll_up = toggle
+mouse_scroll_down = iconify

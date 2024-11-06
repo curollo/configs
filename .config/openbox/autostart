@@ -1,0 +1,7 @@
+setxkbmap -model thinkpad -layout pl -option caps:swapescape >/dev/null 2>&1 &
+xset m 5 1 >/dev/null 2>&1 &
+xset b off >/dev/null 2>&1 &
+xset r rate 250 50 >/dev/null 2>&1 &
+
+tint2 >/dev/null 2>&1 &
+xcompmgr -cCfFD3 >/dev/null 2>&1 &
