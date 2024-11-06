@@ -17,7 +17,7 @@ set move = no
 set imap_keepalive = 900
 set record="+Sent"
 
-source ~/.config/mutt/mailias
+source ~/.mutt/mailias
 set alias_file=~/.mutt/mailias
 set sort='reverse-last-date-received'
 set record="=Sent"
