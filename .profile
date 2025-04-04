@@ -26,7 +26,6 @@ export PATH=~/bin/bastion:~/bin:$PATH
 export EDITOR=vim
 export LANG=en_US.UTF-8
 export HISTSIZE=65536
-export MPD_HOST=$HOME/.mpd/socket
 export PYTHONPATH="."
 export GOPROXY=direct
 export GOSUMDB=off

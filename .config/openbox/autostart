@@ -2,6 +2,10 @@ setxkbmap -model thinkpad -layout pl -option caps:swapescape >/dev/null 2>&1 &
 xset m 5 1 >/dev/null 2>&1 &
 xset b off >/dev/null 2>&1 &
 xset r rate 250 50 >/dev/null 2>&1 &
-
 tint2 >/dev/null 2>&1 &
 xcompmgr -cCfFD3 >/dev/null 2>&1 &
+printf '[global]\norigin = bottom-right\nframe_color = "#18375a"\n\n[urgency_normal]\nbackground = "#181818"\ntimeout = 8\n' | dunst -conf /dev/stdin >/dev/null 2>&1 &
+printf 'db_file\t"/tmp/.mpd_db"\nmusic_directory\t"~/music"\naudio_output\t{\n\ttype\t"pipewire"\n\tname\t"pw"\n}\n' | mpd /dev/stdin >/dev/null 2>&1 &
+xrandr --output eDP-1 --set TearFree on >/dev/null 2>&1 &
+xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1 >/dev/null 2>&1 &
+/usr/libexec/polkit-mate-authentication-agent-1 >/dev/null 2>&1 &
